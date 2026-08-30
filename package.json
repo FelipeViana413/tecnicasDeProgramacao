@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "conversor.js",
   "scripts": {
-    "test": "jest",
+    "test": "node node_modules/jest/bin/jest.js --ci --forceExit",
     "start": "node server.js"
   },
   "dependencies": {
