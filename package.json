@@ -7,8 +7,9 @@
   "type": "commonjs",
   "main": "conversor.js",
   "scripts": {
-    "test": "node node_modules/jest/bin/jest.js --ci --forceExit",
-    "start": "node server.js"
+  "test": "node node_modules/jest/bin/jest.js --ci --forceExit",
+  "coverage": "node node_modules/jest/bin/jest.js --coverage --ci --forceExit",
+  "start": "node server.js"
   },
   "dependencies": {
     "express": "^5.2.1"
